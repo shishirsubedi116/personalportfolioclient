@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import styles from './page.module.css'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const Page = () => {
     useEffect(() => {
         document.title = "Shishir Subedi - Contact"
     })
@@ -18,7 +18,7 @@ const page = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const response = await fetch(`${process.env.LINK}`, {
+            const response = await fetch(`${process.env.LINK}/api/neworder`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -75,4 +75,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

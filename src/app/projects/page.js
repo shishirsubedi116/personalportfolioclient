@@ -7,7 +7,7 @@ import DiamondEats from '../../../public/DiamondEats.png'
 import HotelHorizon from '../../../public/HotelHorizon.png'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
     useEffect(() => {
         document.title = "Shishir Subedi - Projects"
     })
@@ -58,4 +58,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

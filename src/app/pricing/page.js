@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
         document.title = "Shishir Subedi - Pricing"
@@ -19,9 +19,9 @@ const page = () => {
                         <li>Delivery Time: 3 days</li>
                         <li>No of pages: 3 - 4</li>
                         <li>No of Revisions: 2</li>
-                        <li>Authentication: ❌</li>
-                        <li>Image Upload: ❌</li>
-                        <li>Responsive Design: ✅</li>
+                        <li>Authentication: &#x274C;</li>
+                        <li>Image Upload: &#x274C;</li>
+                        <li>Responsive Design: &#9989;</li>
                     </ul>
                     <Link href="/contact" className={styles.btn}>Get Started</Link>
                 </div>
@@ -33,9 +33,9 @@ const page = () => {
                         <li>Delivery Time: 7 - 10 days</li>
                         <li>No of pages: 8 - 12</li>
                         <li>No of Revisions: 5</li>
-                        <li>Authentication: ✅</li>
-                        <li>Image Upload: ❌</li>
-                        <li>Responsive Design: ✅</li>
+                        <li>Authentication: &#9989; </li>
+                        <li>Image Upload: &#x274C;</li>
+                        <li>Responsive Design: &#9989;</li>
 
                     </ul>
                     <a href="/contact" className={styles.btn}>Get Started</a>
@@ -48,9 +48,9 @@ const page = () => {
                         <li>Delivery Time: 14 - 20 days</li>
                         <li>No of pages: 12 - 20</li>
                         <li>No of Revisions: 10</li>
-                        <li>Authentication: ✅</li>
-                        <li>Image Upload: ✅</li>
-                        <li>Responsive Design: ✅</li>
+                        <li>Authentication: &#9989;</li>
+                        <li>Image Upload: &#9989;</li>
+                        <li>Responsive Design: &#9989;</li>
                     </ul>
                     <a href="/contact" className={styles.btn}>Get Started</a>
                 </div>
@@ -59,4 +59,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
