@@ -1,0 +1,92 @@
+/* Reset some default styles (same as before) */
+
+/* Body styles (same as before) */
+
+/* Navbar styles (if applicable) */
+
+/* Contact Section styles */
+.contactSection {
+  padding: 30px;
+}
+
+.contactContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactSection h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contactSection .formGroup {
+  margin-bottom: 20px;
+}
+
+.contactSection label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contactSection input,
+.contactSection select,
+.contactSection textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contactSection textarea {
+  resize: vertical;
+}
+
+.submitBtn {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #c0392b;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    padding: 20px;
+  }
+
+  .contactSection h1 {
+    font-size: 28px;
+  }
+
+  .contactSection label {
+    font-size: 16px;
+  }
+
+  .contactSection input,
+  .contactSection select,
+  .contactSection textarea {
+    font-size: 14px;
+  }
+
+  .submitBtn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}

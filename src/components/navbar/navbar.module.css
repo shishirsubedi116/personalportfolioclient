@@ -1,0 +1,43 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.navbar img {
+  height: 40px; 
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444444;
+  font-size: 16px;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #e74c3c;
+}
+
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbarRight {
+    margin-top: 10px;
+  }
+
+
+  .navbar a {
+    margin: 10px;
+    font-size: 16px;
+  }
+}
+

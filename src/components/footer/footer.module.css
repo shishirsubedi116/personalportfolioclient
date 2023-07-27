@@ -1,0 +1,37 @@
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerSocial {
+  margin-bottom: 20px;
+}
+
+.footerSocial a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footerSocial img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .footerSocial img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}

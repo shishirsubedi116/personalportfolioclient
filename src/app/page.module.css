@@ -1,0 +1,65 @@
+/* Home Section styles */
+.homeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Take up the remaining vertical space */
+  padding: 40px;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.aboutMe,
+.imageContainer {
+  flex: 1;
+  padding: 20px;
+}
+.aboutMe {
+  text-align: left;
+}
+
+.aboutMe h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.aboutMe p {
+  font-size: 18px;
+  color: #666666;
+}
+
+/* Profile image styles */
+.profileImage {
+  width: 350px; /* Adjust the width of your image */
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .aboutMe,
+  .imageContainer {
+    flex: none;
+    width: 100%;
+  }
+
+  .aboutMe h1 {
+    font-size: 28px;
+  }
+
+  .aboutMe p {
+    font-size: 16px;
+  }
+
+  .profileImage {
+    width: 250px;
+  }
+}
