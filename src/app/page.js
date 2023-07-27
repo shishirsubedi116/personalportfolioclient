@@ -13,12 +13,12 @@ export default function Home() {
       <section id="home" className={styles.homeSection}>
         <div className={styles.contentContainer}>
           <div className={styles.aboutMe}>
-            <h1>Hi, I'm Shishir!</h1>
+            <h1>Hi, I&apos;m Shishir!</h1>
             <p>
-              I'm a 19-year-old full-stack web developer with a passion for creating beautiful and interactive
+              I&apos;m a 19-year-old full-stack web developer with a passion for creating beautiful and interactive
               web apps.
               I specialize in HTML, CSS, JavaScript, ReactJS, NextJS, NodeJS, Express, and MongoDB.
-              Let's build something amazing together!
+              Let&apos;s build something amazing together!
             </p>
           </div>
           <div className={styles.imageContainer}>
