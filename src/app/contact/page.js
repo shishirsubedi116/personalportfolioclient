@@ -18,7 +18,7 @@ const page = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const response = await fetch('https://portfoliodiamondserver.onrender.com/api/neworder', {
+            const response = await fetch(`${process.env.LINK}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
