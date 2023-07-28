@@ -9,14 +9,14 @@ const Footer = () => {
         <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
           <Image height={30} width={30} src="/media1.png" alt="Facebook" />
         </a>
-        <a href="https://www.twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/codewithdiamond" target="_blank" rel="noopener noreferrer">
           <Image height={30} width={30} src="/media2.png" alt="Twitter" />
         </a>
-        <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
           <Image height={30} width={30} src="/media3.png" alt="Instagram" />
         </a>
       </div>
-      <p>Email: contact@yourwebsite.com</p>
+      <p>Email: shishirsubedi.email@gmail.com</p>
       <p>&copy; 2023 Shishir Subedi. All rights reserved.</p>
     </footer>
   )

@@ -22,7 +22,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.imageContainer}>
-            <Image width={350} height={400} src="/vegburger.jpg" alt="Shishir Subedi" className={styles.profileImage} />
+            <Image width={350} height={400} src="/hero.webp" alt="Shishir Subedi" className={styles.profileImage} />
           </div>
         </div>
       </section>
