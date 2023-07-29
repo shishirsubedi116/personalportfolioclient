@@ -18,7 +18,7 @@ const Page = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const response = await fetch(`${process.env.LINK}/api/neworder`, {
+            const response = await fetch(`https://portfoliodiamondserver.onrender.com/api/neworder`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -26,6 +26,7 @@ const Page = () => {
                 body: JSON.stringify({ name, email, address, pricing, description })
             })
             const data = await response.json()
+            console.log(data);
             if (data.success) {
                 alert(data.message)
                 router.push('/')
@@ -34,7 +35,7 @@ const Page = () => {
                 alert(data.message)
             }
         } catch (error) {
-            alert('Some Error Occured')
+            alert('Some Error Occured client side')
         }
     }
 
